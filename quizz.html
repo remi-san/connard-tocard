@@ -12,12 +12,18 @@
 </head>
 <body>
 <div class="container">
-    <h1>Connard ou Tocard</h1>
+    <h1 class="text-center mb-4">Connard ou Tocard ?</h1>
     <form id="form" action="result.html">
-        <h2 id="number">Question #<span class="index"></span></h2>
-        <div id="question" class="question"></div>
-        <ul id="answers"></ul>
-        <input type="submit" class="btn btn-primary" value="Suivant" />
+        <div class="question card bg-light mb-3 text-center">
+            <div class="card-header">
+                <h2 id="number">Question #<span class="index"></span></h2>
+            </div>
+            <div class="card-body">
+                <p id="question" class="card-text"></p>
+                <ul id="answers" class="list-group"></ul>
+            </div>
+        </div>
+        <input type="submit" class="btn btn-primary float-sm-right" value="Suivant" />
     </form>
 </div>
 <script>

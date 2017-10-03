@@ -65,7 +65,7 @@ const showQuestion = function (question) {
     {
         var answer = question.answers[i];
         $('#answers').append(
-            '<li class="answer btn btn-secondary">' +
+            '<li class="list-group-item answer">' +
             '    <input type="radio" id="answer'+i+'" name="answer" value="'+answer.value+'" />' +
             '    <label for="answer'+i+'">'+answer.text+'</label>' +
             '</li>'
