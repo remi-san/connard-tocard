@@ -1,0 +1,82 @@
+[
+  {
+    "question" : "Ce soir ton date a annulé votre rendez-vous",
+    "answers" : [
+      { "text" : "Tu appelles une autre cible pour savoir si elle/il est disponible", "value" : "connard" },
+      { "text" : "Tu te dis qu’elle/il a sans doute une bonne raison", "value" : "tocard" },
+      { "text" : "Tu lui envoies un SMS rageur", "value" : "tocard" }
+    ]
+  },
+  {
+    "question" : "Aujourd’hui c’est l’anniversaire de ta/ton chéri-e",
+    "answers" : [
+      { "text" : "C’est facebook qui t’a rappelé la date", "value" : "connard" },
+      { "text" : "Tu as prévu le plus beau cadeau qu’il/elle a jamais eu", "value" : "connard" },
+      { "text" : "Tu y réfléchis depuis des mois", "value" : "tocard" }
+    ]
+  },
+  {
+    "question" : "C’est la 1ère fois que tu présentes ta/ton chéri-e à tes parents",
+    "answers" : [
+      { "text" : " Tu dis à tes parents : “Vous allez voir elle/il est un peu spécial-e”", "value" : "connard" },
+      { "text" : "Tu dis à ta/ton chéri-e : “Tu vas voir ils sont un peu spéciaux”", "value" : "tocard" },
+      { "text" : "Tu lui demandes de ramener un truc à tes parents", "value" : "connard" }
+    ]
+  },
+  {
+    "question" : "Après la baise",
+    "answers" : [
+      { "text" : "Tu te blottis contre ta/ton chéri-e", "value" : "tocard" },
+      { "text" : "Tu dors", "value" : "connard" },
+      { "text" : "Tu débriefes", "value" : "connard" }
+    ]
+  },
+  {
+    "question" : "En rentrant du boulot",
+    "answers" : [
+      { "text" : "Tu demandes à ta/ton chéri-e comment s’est passée sa journée", "value" : "tocard" },
+      { "text" : "Tu racontes ta journée", "value" : "connard" },
+      { "text" : "Tu vas sur l’ordi / devant la télé", "value" : "connard" }
+    ]
+  },
+  {
+    "question" : "Vous allez au cinéma",
+    "answers" : [
+      { "text" : "Tu choisis le film", "value" : "connard" },
+      { "text" : "Elle/Il choisit le film", "value" : "tocard" },
+      { "text" : "Vous décidez à deux", "value" : "tocard" }
+    ]
+  },
+  {
+    "question" : "Quand vous vous disputez",
+    "answers" : [
+      { "text" : "Elle/il finit par s’excuser", "value" : "connard" },
+      { "text" : "Tu finis par t’excuser", "value" : "tocard" },
+      { "text" : "Vous finissez par passer à autre chose", "value" : "connard" }
+    ]
+  },
+  {
+    "question" : "Elle/Il a passé une mauvaise journée",
+    "answers" : [
+      { "text" : "Tu essayes de lui changer les idées", "value" : "tocard" },
+      { "text" : "Tu lui changes les idées", "value" : "connard" },
+      { "text" : "Tu lui donnes des conseils pour le lendemain", "value" : "connard" }
+    ]
+  },
+  {
+    "question" : "Elle/Il est très mal habillé-e aujourd’hui",
+    "answers" : [
+      { "text" : "Tu lui dis de se changer", "value" : "connard" },
+      { "text" : "Ça te gêne mais tu acceptes ses choix", "value" : "tocard" },
+      { "text" : "Tu fais passer l’information habilement", "value" : "tocard" }
+    ]
+  },
+  {
+    "question" : "À votre mariage",
+    "answers" : [
+      { "text" : "Tu es trop beau/belle", "value" : "connard" },
+      { "text" : "Elle/Il est trop beau/belle", "value" : "tocard" },
+      { "text" : "C’est le plus beau jour de ta vie", "value" : "tocard" }
+    ]
+  }
+]
