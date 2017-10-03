@@ -12,6 +12,11 @@
 
     <script>
         const parsedAnswers = parseAnswers();
+
+        if (parsedAnswers === null) {
+            window.location = 'index.html';
+        }
+
         const connardTocard = (parsedAnswers.connard > parsedAnswers.tocard) ? 'connard' : 'tocard';
         const title = (connardTocard === 'connard') ? 'Je suis un connard ! Et vous ?' : 'Je suis un tocard ! Et vous ?';
         const uri = window.location.href;
@@ -74,7 +79,7 @@ $('#fbshare').click(function (e) {
 
     FB.ui({
         method: 'share',
-        href: uri,
+        href: uri + '&' + 'fb_refresh=' + Math.round(Math.random()*100),
         hashtag: '#connardTocard',
         quote: title
     }, function(response){});

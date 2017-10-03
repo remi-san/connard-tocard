@@ -44,7 +44,13 @@ const displayResult = function () {
 };
 
 const parseAnswers = function () {
-    return atob(getUrlParameter('answers'))
+    var answer = getUrlParameter('answers');
+
+    if (!answer) {
+        return null;
+    }
+
+    return atob(answer)
         .split(",")
         .reduce(function (acc, value) {
             acc[value] += 1;
