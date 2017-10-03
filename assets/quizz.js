@@ -15,7 +15,7 @@ const start = function () {
 };
 
 const question = function () {
-    $.getJSON('/assets/questions.json', function(data) {
+    $.getJSON('./assets/questions.json', function(data) {
 
         if (questionIndex > data.length) {
             displayResult();
